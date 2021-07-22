@@ -55,4 +55,5 @@ if [[ ${testnet} == "true" ]]; then
   fi
 fi
 
-while true; do sleep 30; done;
+tail -F ~/.chia/mainnet/log/debug.log
+
